@@ -1,6 +1,7 @@
 # IITI-GPT: A Customized Chatbot
-
-IITI-GPT is a unique chatbot application developed by the Cynaptics Club and Robotics Club of IIT Indore. This application is designed to run on a Raspberry Pi, leveraging its compact and efficient computing capabilities.
+Welcome to the GitHub repository of IITI-GPT, a unique chatbot application developed by the Cynaptics Club and Robotics Club of IIT Indore.
+## Overview
+IITI-GPT is an innovative chatbot application designed specifically to run on a Raspberry Pi. Leveraging the compact and efficient computing capabilities of the Raspberry Pi, this chatbot brings advanced natural language processing to your fingertips. It provides an interactive and intelligent conversational experience.
 
 ## Features
 
@@ -11,6 +12,10 @@ IITI-GPT is a unique chatbot application developed by the Cynaptics Club and Rob
 ## Getting Started
 
 To get started with IITI-GPT, you'll need a Raspberry Pi and the necessary software dependencies.
+1) Install the required dependencies:
+```
+pip install -r requirements.txt
+```
 
 
 ## Contact
