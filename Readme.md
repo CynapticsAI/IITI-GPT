@@ -1,5 +1,8 @@
 # IITI-GPT: A Customized Chatbot
 Welcome to the GitHub repository of IITI-GPT, a unique chatbot application developed by the Cynaptics Club and Robotics Club of IIT Indore.
+
+![bd5c23b0-953c-4aeb-978b-0b62a9d426a1](https://github.com/CynapticsAI/IITI-GPT/assets/95569637/ebbf6cbe-d44c-4381-96e7-730332f45f94)
+
 ## Overview
 IITI-GPT is an innovative chatbot application designed specifically to run on a Raspberry Pi. Leveraging the compact and efficient computing capabilities of the Raspberry Pi, this chatbot brings advanced natural language processing to your fingertips. It provides an interactive and intelligent conversational experience.
 
