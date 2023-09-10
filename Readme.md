@@ -1,4 +1,4 @@
-# IITI-GPT: A Customized Chatbot
+# [IITI-GPT: A Customized Chatbot](https://www.linkedin.com/posts/ranveer-singh-b5b99b71_iitindore-btech-activity-7094298458571894785-jw9g?utm_source=share&utm_medium=member_desktop)
 Welcome to the GitHub repository of IITI-GPT, a unique chatbot application developed by the Cynaptics Club and Robotics Club of IIT Indore.
 
 ![bd5c23b0-953c-4aeb-978b-0b62a9d426a1](https://github.com/CynapticsAI/IITI-GPT/assets/95569637/ebbf6cbe-d44c-4381-96e7-730332f45f94)
