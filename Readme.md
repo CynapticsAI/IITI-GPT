@@ -13,7 +13,7 @@ IITI-GPT is an innovative chatbot application designed specifically to run on a 
 
 - The source code is run on the Raspberry Pi 4 Model-B with 4 GB RAM microprocessor. Here there is audio to text conversion , AI model response genration , again conversion of text to audio and finally responce is played through speakers.
 
-<img src="https://github.com/arjun-593/IITI-GPT/blob/main/data/rpi_used.jpg" width="400" height="400" />
+<img src="/data/rpi_used.jpg" width="400" height="400" />
 
 
 - A library, PyAudio in python is to record audio when the button is pressed. It provides Python bindings for PortAudio v19, the cross-platform audio I/O library and then we save it as a WAV file. Then for audio to speech transcription we use Gradio client, a high-level class which allows to create a web-based GUI / demo around a ML model in a few lines of code. Then this is fed for interaction with a remote chatbot model using the Gradio client to send a combination of initial prompts, information, and questions. The chatbot's responses are then extracted and then converted back to audio using Google Text-to-Speech (gTTS) , and plays them through speakers.
