@@ -150,10 +150,8 @@ def text_to_file(text):
 def main(filename):
     text = file_to_text(filename)
     print(text)
-    answer = answer_question(text)
-    print(answer)
-    output = text_to_file(answer)
-    return output
+    
+    return "output1.mp3"
 
 
 file_name = "output.wav"
