@@ -4,6 +4,7 @@ from gtts import gTTS
 import pyaudio
 import wave
 import RPi.GPIO as GPIO
+import os
 import time
 from multiprocessing import Process, Pipe
 from blink_LED import LED_class
@@ -39,6 +40,11 @@ GPIO.output(RED_PIN, GPIO.LOW)
 GPIO.output(GREEN_PIN, GPIO.LOW)
 GPIO.output(BLUE_PIN, GPIO.LOW)
 
+def getFromAPI(query : str):
+    os.system("rm output1.wav | true")
+    os.system("""curl --location 'https://a83f-103-159-214-187.ngrok-free.app/query' \
+          --header 'Content-Type:application/json' \
+          --data '{"base_prompt":"{"""+query +"""}", "history": []}' -o answer.mp3""")
 
 def error_call():
     GPIO.output(RED_PIN, GPIO.LOW)
@@ -150,8 +156,8 @@ def text_to_file(text):
 def main(filename):
     text = file_to_text(filename)
     print(text)
-    
-    return "output1.mp3"
+    getFromAPI(text)
+    return "answer.mp3"
 
 
 file_name = "output.wav"
